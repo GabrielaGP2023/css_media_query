@@ -1,0 +1,12 @@
+@media (orientation:portrait){
+    body{
+        background-color: aliceblue;
+        color: gray;
+    }
+}
+@media (orientation:landscape){
+    body{
+        background-color: black;
+        color: white;
+    }
+}

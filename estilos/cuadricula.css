@@ -1,0 +1,52 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(13,1fr);
+    grid-template-rows: repeat(13,1fr);
+    gap: 10px; 
+    height: 80vh;
+}
+.foto1{
+    grid-column: 1 / 4; /* columnas 1, 2, 3 */
+    grid-row: 1 / 4;    /* renglones 1, 2, 3 */
+    background-color: aqua;
+}
+.foto2{
+    grid-column: 6 / 9;
+    grid-row: 1 /  4;
+    background-color: blueviolet;
+}
+.foto3{
+    grid-column: 11 /  14;
+    grid-row: 1 / 4;
+    background-color: brown;
+}
+.foto4{
+    grid-column: 1 / 4;
+    grid-row: 6 / 9;
+    background-color: cadetblue;
+}
+.foto5{
+    grid-column: 5 / 10;
+    grid-row: 6 / 9;
+    background-color: rgb(226, 43, 189);
+}
+.foto6{
+    grid-column: 11 / 14;
+    grid-row: 6 / 9;
+    background-color: rgb(157, 165, 42);
+}
+.foto7{
+    grid-column: 1 /  4;
+    grid-row: 11 / 14;
+    background-color: aqua;
+}
+.foto8{
+    grid-column: 6 / 9;
+    grid-row: 11 / 14;
+    background-color: blueviolet;
+}
+.foto9{
+    grid-column: 11 / 14;
+    grid-row: 11 / 14;
+    background-color: brown;
+}
